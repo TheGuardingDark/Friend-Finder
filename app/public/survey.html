@@ -7,9 +7,10 @@
 
   
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cyborg/bootstrap.min.css" rel="stylesheet" integrity="sha384-mtS696VnV9qeIoC8w/PrPoRzJ5gwydRVn0oQ9b+RJOPxE1Z1jXuuJcyeNxvNZhdx" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <style>
@@ -17,7 +18,12 @@
 #matchImage {
   position: relative;
   left: -6px;
-}
+};
+
+.text-left {
+  margin-top: 10px !important;
+};
+
 
 
 </style>
@@ -223,7 +229,7 @@
                                     </div>
       
                         <div class="text-left">
-                          <button type="submit" class="btn btn-primary btn-md" id="add-friend"></span>Submit</button>
+                          <button type="submit" class="btn btn-primary btn-lg" id="add-friend"></span>Submit</button>
                         </div>
                         <div class="text-right">
                           <a href="/"><button class="btn btn-danger btn-lg"><span class="fa fa-home"></span>Go Home</button></a>
@@ -273,6 +279,8 @@
           $.post("/api/friends", newFriend)
             .then(function(data) {
               
+              $("#photo").val(""),
+              $("#name").val(""),
               $("#one").val(""),
               $("#two").val(""),
               $("#three").val(""),
@@ -285,7 +293,7 @@
               $("#ten").val("")
 
 
-              alert("Submitting");
+              // alert("Submitting");
 
               $(".matchName").text(data.matchName);
               $("#matchImage").attr("src", data.matchImg);
@@ -299,15 +307,5 @@
 
         }); 
         
-   
-
-
-
-        // $.post('/api/friends', userInput)
-      	// 	.done(function(data) {
-      	// 		// console.log('response = ' + JSON.stringify(data));
-      	// 		// Set the name and image values of friend match
-      	// 		$('#userMatch').html(data.matchName);
-		    // 	$("#userMatchImage").attr("src", data.matchImage);
 
 </script>

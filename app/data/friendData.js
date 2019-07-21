@@ -23,7 +23,7 @@ var friends = [
   {
       routeName: "keanureeves",
       name: "Keanu Reeves",
-      photo: "https://en.wikipedia.org/wiki/Keanu_Reeves#/media/File:Keanu_Reeves_(crop_and_levels)_(cropped).jpg",
+      photo: "https://media.newyorker.com/photos/5cf5728d47f7cc877a506d9b/master/w_1023,c_limit/Fry-KeanuReeves-2.jpg",
       answers: [4, 2, 5, 5, 3, 4, 3, 5, 1, 1],
       score: "",
   },
@@ -39,6 +39,13 @@ var friends = [
       name: "Louise Belcher",
       photo: "https://pbs.twimg.com/profile_images/1224753245/louise_400x400.png",
       answers: [5, 4, 4, 5, 2, 5, 4, 4, 1, 2],
+      score: "",
+  },
+  {
+      routename: "tinabelcher",
+      name: "Tina Belcher",
+      photo: "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-Bobs-Burgers-Dan-Mintz.jpg",
+      answers: [1, 2, 4, 3, 2, 5, 2, 5, 1, 1],
       score: "",
   }
 ];
