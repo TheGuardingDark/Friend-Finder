@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey</title>
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+<style>
+
+#matchImage {
+  position: relative;
+  left: -6px;
+}
+
+
+</style>
+
+<body>
+
+  <div class="container">
+
+    <div class="jumbotron">
+      <h1 class="text-center">Friend Finder Survey</h1>
+      <hr>
+      <h2 class="text-center">About You</h2>
+      <br>
+
+      <form>
+          <h4>Name (Required)</h4>
+          <input id="name" class="form-control" type="text" required="">
+          <h4>Link to Photo Image (Required)</h4>
+          <input id="photo" class="form-control" type="text" required="">
+          <hr>
+          <h3>
+              <strong>Question 1</strong>
+          </h3>
+          <h4>
+              Hell is other people.
+          </h4>
+                <div class="select" style="width:200px;">
+                  <select id="one">
+                    <option value="0"></option>
+                    <option value="1">Strongly Disagree</option>
+                    <option value="2">Disagree</option>
+                    <option value="3">Neutral</option>
+                    <option value="4">Agree</option>
+                    <option value="5">Strongly Agree</option>
+                  </select>
+                </div>
+                <h3>
+                  <strong>Question 2</strong>
+              </h3>
+              <h4>
+                  Free Will is an illusion.
+              </h4>
+                    <div class="select" style="width:200px;">
+                      <select id="two">
+                        <option value="0"></option>
+                        <option value="1">Strongly Disagree</option>
+                        <option value="2">Disagree</option>
+                        <option value="3">Neutral</option>
+                        <option value="4">Agree</option>
+                        <option value="5">Strongly Agree</option>
+                      </select>
+                    </div>
+                    <h3>
+                      <strong>Question 3</strong>
+                  </h3>
+                <h4>
+                    "Sometimes the Appropriate Response to Reality is to go Insane."
+                </h4>
+                    <div class="select" style="width:200px;">
+                      <select id="three">
+                        <option value="0"></option>
+                        <option value="1">Strongly Disagree</option>
+                        <option value="2">Disagree</option>
+                        <option value="3">Neutral</option>
+                        <option value="4">Agree</option>
+                        <option value="5">Strongly Agree</option>
+                       </select>
+                      </div>
+                  <h3>
+                    <strong>Question 4</strong>
+                  </h3>
+                      <h4>
+                        "Life is Pain. Anyone who tells you Differently is Selling Something."
+                      </h4>
+                        <div class="select" style="width:200px;">
+                          <select id="four">
+                            <option value="0"></option>
+                            <option value="1">Strongly Disagree</option>
+                            <option value="2">Disagree</option>
+                            <option value="3">Neutral</option>
+                            <option value="4">Agree</option>
+                            <option value="5">Strongly Agree</option>
+                          </select>
+                          </div>
+                    <h3>
+                        <strong>Question 5</strong>
+                    </h3>
+                        <h4>
+                            "If You Live Long Enough, You'll see That Every Victory Turns into a Defeat."
+                        </h4>
+                            <div class="select" style="width:200px;">
+                              <select id="five">
+                                <option value="0"></option>
+                                <option value="1">Strongly Disagree</option>
+                                <option value="2">Disagree</option>
+                                <option value="3">Neutral</option>
+                                <option value="4">Agree</option>
+                                <option value="5">Strongly Agree</option>
+                              </select>
+                            </div>
+                      <h3>
+                        <strong>Question 6</strong>
+                      </h3>
+                          <h4>
+                              "What we Remember is Probably Fiction Anyway."
+                          </h4>
+                              <div class="select" style="width:200px;">
+                                  <select id="six">
+                                    <option value="0"></option>
+                                    <option value="1">Strongly Disagree</option>
+                                    <option value="2">Disagree</option>
+                                    <option value="3">Neutral</option>
+                                    <option value="4">Agree</option>
+                                    <option value="5">Strongly Agree</option>
+                                  </select>
+                                </div>
+                        <h3>
+                            <strong>Question 7</strong>
+                        </h3>
+                            <h4>
+                              "If it's true that our species is alone in the universe, then the universe aimed rather low and settled for very little."
+                            </h4>
+                                <div class="select" style="width:200px;">
+                                    <select id="seven">
+                                      <option value="0"></option>
+                                      <option value="1">Strongly Disagree</option>
+                                      <option value="2">Disagree</option>
+                                      <option value="3">Neutral</option>
+                                      <option value="4">Agree</option>
+                                      <option value="5">Strongly Agree</option>
+                                    </select>
+                                  </div>
+                         <h3>
+                            <strong>Question 8</strong>
+                         </h3>
+                              <h4>
+                                  "Though a good deal is too strange to be believed, nothing is too strange to have happened."
+                              </h4>
+                                  <div class="select" style="width:200px;">
+                                    <select id="eight">
+                                      <option value="0"></option>
+                                      <option value="1">Strongly Disagree</option>
+                                      <option value="2">Disagree</option>
+                                      <option value="3">Neutral</option>
+                                      <option value="4">Agree</option>
+                                      <option value="5">Strongly Agree</option>
+                                      </select>
+                                    </div>
+                            <h3>
+                                <strong>Question 9</strong>
+                            </h3>
+                                <h4>
+                                  "The meaning of life is that it stops."
+                                </h4>
+                                    <div class="select" style="width:200px;">
+                                      <select id="nine">
+                                        <option value="0"></option>
+                                        <option value="1">Strongly Disagree</option>
+                                        <option value="2">Disagree</option>
+                                        <option value="3">Neutral</option>
+                                        <option value="4">Agree</option>
+                                        <option value="5">Strongly Agree</option>
+                                      </select>
+                                      </div>
+                            <h3>
+                                 <strong>Question 10</strong>
+                            </h3>
+                                  <h4>
+                                    "Of all escape mechanisms, death is the most efficient."
+                                  </h4>
+                                      <div class="select" style="width:200px;">
+                                        <select id="ten">
+                                          <option value="0"></option>
+                                          <option value="1">Strongly Disagree</option>
+                                          <option value="2">Disagree</option>
+                                          <option value="3">Neutral</option>
+                                          <option value="4">Agree</option>
+                                          <option value="5">Strongly Agree</option>
+                                        </select>
+                                      </div>
+                                    </form>
+      
+      
+                                    <div id="myModal" class="modal fade" role="dialog">
+                                      <div class="modal-dialog">
+                                    
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h4 class="modal-title">You Have a Match!</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                          </div>
+                                          <div class="modal-body">
+                                            <h5 class="matchName"></h5>
+                                            <hr><hr>
+                                            <img id="matchImage" class="materialboxed" width="480" src="">
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+      
+                        <div class="text-left">
+                          <button type="submit" class="btn btn-primary btn-md" id="add-friend"></span>Submit</button>
+                        </div>
+                        <div class="text-right">
+                          <a href="/"><button class="btn btn-danger btn-lg"><span class="fa fa-home"></span>Go Home</button></a>
+                        </div>
+
+    </div>
+    
+
+
+    <footer class="footer">
+      <div class="container">
+        <p>
+          <a href="/api/friends">API Friends Link</a> |
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
+
+<script type="text/javascript">
+
+ 
+ $("#add-friend").on("click", function(event) {
+          event.preventDefault();
+
+
+          var newFriend = {
+            name: $("#name").val().trim(),
+            photo: $("#photo").val().trim(),
+            answers: [
+              $("#one").val(),
+              $("#two").val(),
+              $("#three").val(),
+              $("#four").val(),
+              $("#five").val(),
+              $("#six").val(),
+              $("#seven").val(),
+              $("#eight").val(),
+              $("#nine").val(),
+              $("#ten").val()
+            ]
+          };
+
+          $.post("/api/friends", newFriend)
+            .then(function(data) {
+              
+              $("#one").val(""),
+              $("#two").val(""),
+              $("#three").val(""),
+              $("#four").val(""),
+              $("#five").val(""),
+              $("#six").val(""),
+              $("#seven").val(""),
+              $("#eight").val(""),
+              $("#nine").val(""),
+              $("#ten").val("")
+
+
+              alert("Submitting");
+
+              $(".matchName").text(data.matchName);
+              $("#matchImage").attr("src", data.matchImg);
+              console.log(data);
+      
+
+              $("#myModal").modal();
+
+
+            });
+
+        }); 
+        
+   
+
+
+
+        // $.post('/api/friends', userInput)
+      	// 	.done(function(data) {
+      	// 		// console.log('response = ' + JSON.stringify(data));
+      	// 		// Set the name and image values of friend match
+      	// 		$('#userMatch').html(data.matchName);
+		    // 	$("#userMatchImage").attr("src", data.matchImage);
+
+</script>
