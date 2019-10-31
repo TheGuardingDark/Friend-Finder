@@ -7,6 +7,8 @@ DEPLOYED PROJECT
 Follow this link to take the survey:
 https://rocky-sands-51641.herokuapp.com/
 
+You may use any name and a fake picture link for the required fields
+
 APP FUNCTIONALITY
 =====================
 
