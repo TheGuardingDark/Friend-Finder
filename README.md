@@ -1,6 +1,6 @@
 # A Pessimist's Friend Finder :expressionless:
 ## Full-stack App using Express
-### node/express/path/bootstrap
+### node/express/path/bootstrap/routing
 
 DEPLOYED PROJECT
 ==============================
