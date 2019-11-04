@@ -1,5 +1,5 @@
 # A Pessimist's Friend Finder :expressionless:
-## Full-stack homework app using express
+## Full-stack App using Express
 ### node/express/path/bootstrap
 
 DEPLOYED PROJECT
@@ -21,4 +21,4 @@ APP FUNCTIONALITY
 -- A modal will appear with the user's match, listing their name and displaying the photo they had submitted earlier. The user may exit the modal and take the survey again, they will be added into the api as a new entry each time.
 
 ### FRIEND API :skull:
--- The Friend API stores all individuals as an object with their name, photo, and survey scores. Navigating to the API will return a JSOn list of friends and their individual stats. Each time a new user takes the survey they will be added to the API.
+-- The Friend API stores all individuals as an object with their name, photo, and survey scores. Navigating to the API will return a JSON list of friends and their individual stats. Each time a new user takes the survey they will be added to the API.
